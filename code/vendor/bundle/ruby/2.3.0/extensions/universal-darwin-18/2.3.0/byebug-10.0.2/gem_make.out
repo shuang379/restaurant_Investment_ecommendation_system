@@ -1,0 +1,19 @@
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20181121-80460-uk7tkp.rb extconf.rb
+creating Makefile
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20181121-80460-1x0w49w/byebug

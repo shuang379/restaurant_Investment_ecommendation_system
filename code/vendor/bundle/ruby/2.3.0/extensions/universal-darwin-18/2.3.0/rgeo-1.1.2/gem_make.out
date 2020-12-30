@@ -1,0 +1,23 @@
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/rgeo-1.1.2/ext/geos_c_impl
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20181121-80460-28v0kc.rb extconf.rb
+checking for geos-config... no
+checking for geos_c.h... no
+**** WARNING: Unable to find GEOS headers or libraries.
+**** Ensure that 'geos-config' is in your PATH or provide that full path via --with-geos-config
+**** Compiling without GEOS support.
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/extensions/universal-darwin-18/2.3.0/rgeo-1.1.2/mkmf.log
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/rgeo-1.1.2/ext/geos_c_impl
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/rgeo-1.1.2/ext/geos_c_impl
+make "DESTDIR="
+make: Nothing to be done for `install'.
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/4_CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.3.0/gems/rgeo-1.1.2/ext/geos_c_impl
+make "DESTDIR=" install
+make: Nothing to be done for `install'.

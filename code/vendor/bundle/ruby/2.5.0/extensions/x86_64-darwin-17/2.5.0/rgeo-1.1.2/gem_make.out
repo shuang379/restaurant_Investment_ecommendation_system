@@ -1,0 +1,37 @@
+current directory: /Users/shuyanhuang/Documents/OMSCS/CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.5.0/gems/rgeo-1.1.2/ext/geos_c_impl
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20181101-40451-1la2fjf.rb extconf.rb
+checking for geos-config... yes
+
+checking for geos_c.h... yes
+checking for GEOSSetSRID_r() in geos_c.h... yes
+checking for GEOSPreparedContains_r() in geos_c.h... yes
+checking for GEOSPreparedDisjoint_r() in geos_c.h... yes
+checking for GEOSUnaryUnion_r() in geos_c.h... yes
+checking for rb_memhash() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.5.0/gems/rgeo-1.1.2/ext/geos_c_impl
+make "DESTDIR=" clean
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.5.0/gems/rgeo-1.1.2/ext/geos_c_impl
+make "DESTDIR="
+compiling coordinates.c
+compiling factory.c
+compiling geometry.c
+geometry.c:759:60: warning: implicit conversion loses integer precision: 'VALUE' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+                                                           endCapStyle, joinStyle, mitreLimit),
+                                                           ^~~~~~~~~~~
+geometry.c:759:73: warning: implicit conversion loses integer precision: 'VALUE' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+                                                           endCapStyle, joinStyle, mitreLimit),
+                                                                        ^~~~~~~~~
+2 warnings generated.
+compiling geometry_collection.c
+compiling line_string.c
+compiling main.c
+compiling point.c
+compiling polygon.c
+linking shared-object rgeo/geos/geos_c_impl.bundle
+
+current directory: /Users/shuyanhuang/Documents/OMSCS/CSE6242_DVA_2018Fall/GroupProject/6242Project_github/vendor/bundle/ruby/2.5.0/gems/rgeo-1.1.2/ext/geos_c_impl
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 geos_c_impl.bundle ./.gem.20181101-40451-w2ij43/rgeo/geos
